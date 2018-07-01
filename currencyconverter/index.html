@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Currency Converter</title>
+    <link rel="stylesheet" href="resources/style.css">
+    <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet">
+  </head>
+
+  <body>
+    <header>
+			<div class="logo"> <!--Logo section -->
+				<img src="resources/images/currencylogo.jpg">
+			</div>
+		</header>
+
+    <div class="form-class">
+      <form class="form">
+        <ul>
+          <li>
+            <select name="fromCurrency" id="fromCurrency">
+            </select>
+          </li>
+
+          <li>
+            <select name="toCurrency" id="toCurrency">
+            </select>
+          </li>
+
+          <li>
+            <input type="number" name="amount" value="" id="amount" placeholder="Amount">
+          </li>
+
+          <li>
+            <input type="button" name="convert-btn" id="button" value="Convert Currency">
+          </li>
+
+          <li>
+            <p id="result">Results loading....</p>
+          </li>
+        </ul>
+      </form>
+    </div>
+
+    <div class="footer">
+      <h3>Google Africa Challenge powered by udacity</h3>
+      <h2>CONVERTER CREATED BY LESLO40X</h2>
+		</div>
+
+    
+    <script type="text/javascript" src="resources/idb.js"></script>
+    <script type="text/javascript" src="main.js"></script>
+
+  </body>
+</html>

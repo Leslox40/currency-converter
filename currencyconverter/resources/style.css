@@ -1,0 +1,113 @@
+body {
+	margin: 0;
+	padding: 0;
+}
+header {
+	font-family: 'Lato', sans-serif;;
+	font-weight: bold;
+	display: flex;
+	height: 80px;
+	font-size: 14px;
+	align-items: center;
+	border-bottom: 1px solid black;
+	width: 100%;
+	position: fixed;
+	z-index: 10;
+	background-color: #243445;
+	top: 0;
+}
+.logo {
+	padding-left: 30px;
+	flex-grow: 1;
+	display: inline-flex;
+	align-items: center;
+
+}
+.logo img {
+	height: 60px;
+	width: 70px;
+	margin-right: 12px;
+}
+.form-class {
+  text-align: center;
+  height: 600px;
+  width: 100%;
+  margin: 0 auto;
+  position: relative;
+  top: 80px;
+  background-image: url('images/goldpic.png');
+}
+.form {
+    max-width:400px;
+    margin: 0 auto;
+    background:#fff;
+    border-radius:2px;
+    padding:20px;
+    font-family: 'Lato', sans-serif;
+    opacity: 0.8;
+    /* height: 400px; */
+    position: relative;
+    top: 70px;
+}
+.form ul{
+    list-style:none;
+    padding:0;
+    margin:0;
+    max-width: 400px;
+}
+.form li{
+    display: block;
+    padding: 9px;
+    border:1px solid #DDDDDD;
+    margin-bottom: 30px;
+    border-radius: 3px;
+}
+.form select{
+	width: 21rem;
+	height: 36px;
+	border:none;
+	border-radius: 1px;
+	border-bottom: 3px solid #073A5E;
+
+}
+.form select > option {
+	padding: 40px;
+	border: none;
+	margin: none;
+}
+.form select:focus
+{
+		background-color: white;
+    border: none;
+    padding: none;
+    border-bottom: 3px solid #DDDDDD;
+    border-radius: 3px;
+}
+.form input[type="button"] {
+  background-color: #CBAE33;
+  color: black;
+  opacity: 0.9;
+	width: 21rem;
+	padding: 10px;
+}
+.form input[type="button"]:hover {
+  opacity: 0.8;
+}
+.form input[type="number"] {
+	width: 21rem;
+	border: none;
+	padding: 10px;
+}
+#results {
+	font-weight: bolder;
+	color: #243445;
+}
+.footer {
+  position: fixed;
+  bottom: 0;
+	height: 200px;
+	width: 100%;
+	background-color: #243445;
+  color: white;
+  text-align: center;
+}
